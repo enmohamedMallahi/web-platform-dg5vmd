@@ -42,7 +42,7 @@ nav a[aria-current='page'] {
 }
 
 main {
-  padding: 1rem;
+  padding: 1rem 4rem;
 }
 
 h1 {
@@ -60,4 +60,16 @@ h1 {
   max-width: 622px;
   outline: 0;
   border: 0;
+}
+
+@media screen and (max-width: 720px) {
+  main {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  main {
+    padding: 1rem;
+  }
 }
